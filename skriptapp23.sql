@@ -16,9 +16,11 @@ datumrođenja datetime,
 plaća decimal (18,2)
 );
 
-create table suđenje (
+create table sudjeluje (
 projekt int,
 programer int,
 datumpočetka datetime,
 datumkraja datetime
 );
+
+alter table 
